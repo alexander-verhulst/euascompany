@@ -31,6 +31,7 @@ public class HourlyPaid extends Employee {
         return "HourlyPaid{" +
                 "rateOfPay=" + rateOfPay +
                 ", weeklyHoursWorked=" + weeklyHoursWorked +
+                super.toString() +
                 '}';
     }
 }

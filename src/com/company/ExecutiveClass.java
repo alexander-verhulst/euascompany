@@ -11,7 +11,7 @@ public class ExecutiveClass extends Employee{
         this.increment = increment;
     }
 
-    public void getIncrement(double[] increment) {
+    public void getIncrement() {
         this.increment = increment;
     }
 
@@ -36,4 +36,6 @@ public class ExecutiveClass extends Employee{
                 "increment=" + Arrays.toString(increment) +
                 '}';
     }
+
+
 }
